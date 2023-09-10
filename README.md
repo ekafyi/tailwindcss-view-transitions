@@ -7,7 +7,7 @@ A plugin for customizing styles for the [View Transitions Web API](https://devel
 ## Installation
 
 ```sh
-npm install -D tailwindcss-view-transitions
+npm install -D @ekafyi/tailwindcss-view-transitions
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
@@ -19,7 +19,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require("tailwindcss-view-transitions"),
+    require("@ekafyi/tailwindcss-view-transitions"),
     // ...
   ],
 }
@@ -86,7 +86,7 @@ Alternatively, you can define styles from plugin configuration in your `tailwind
 // tailwind.config.js
 module.exports = {
   plugins: [
-    require("tailwindcss-view-transitions")({
+    require("@ekafyi/tailwindcss-view-transitions")({
       disableAllReduceMotion: false,
       styles: {
         // ...

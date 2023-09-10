@@ -1,5 +1,5 @@
 {
-	"name": "tailwindcss-view-transitions",
+	"name": "@ekafyi/tailwindcss-view-transitions",
 	"version": "0.1.0",
 	"description": "TailwindCSS plugin for customizing styles for the View Transitions Web API",
 	"main": "src/index.js",
@@ -11,6 +11,7 @@
 	"license": "MIT",
 	"repository": "https://github.com/ekafyi/tailwindcss-view-transitions",
 	"publishConfig": {
+		"registry": "https://npm.pkg.github.com",
 		"access": "public"
 	},
 	"devDependencies": {
