@@ -147,7 +147,7 @@ Detailed examples: https://github.com/ekafyi/tailwindcss-view-transitions/blob/m
 
 You may not need this plugin if:
 
-* You don’t need to customize the browser default transition (crossfade) styles 😁
+* You don’t need to customize the [default browser transition styles](https://developer.chrome.com/docs/web-platform/view-transitions/#default-style-and-transition-reference)
 * You do styling outside of Tailwind configuration
 * You exclusively use a (meta)framework that has its own API for conveniently styling view transitions, such as [Astro](https://docs.astro.build/en/guides/view-transitions/)
 
