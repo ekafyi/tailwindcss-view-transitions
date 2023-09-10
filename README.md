@@ -1,7 +1,5 @@
 # tailwindcss-view-transitions
 
-[![NPM package version](https://img.shields.io/npm/v/tailwindcss-view-transitions)](https://www.npmjs.com/package/tailwindcss-view-transitions)
-
 A plugin for customizing styles for the [View Transitions Web API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API).
 
 ## Installation
