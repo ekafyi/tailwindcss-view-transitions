@@ -30,17 +30,17 @@ module.exports = {
 Use the `vt-name-[ANY_STRING]` utility class to [create a separate view transition](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API#different_transitions_for_different_elements) on specific elements.
 
 ```html
-<div class="vt-name-[main-header]">
+<div class="vt-name-[main-content]">
 </div>
 ```
 
 Use `vt-name-none` to disable a view transition. Can be used with any Tailwind variant, such as `md:*`.
 
 ```html
-<div class="vt-name-[main-header] md:vt-name-none">
+<div class="vt-name-[main-content] md:vt-name-none">
 </div>
 
-<div class="vt-name-[main-header] motion-reduce:vt-name-none">
+<div class="vt-name-[main-content] motion-reduce:vt-name-none">
 </div>
 ```
 
@@ -49,7 +49,7 @@ The name can be any string except `root` (❌ `vt-name-[root]`), which is reserv
 | Class  | CSS properties |
 | ---  | --- |
 | `vt-name-[foo]` |  `view-transition-name: foo;` |
-| `vt-name-[foo-bar]` |  `view-transition-name: foo-bar;` |
+| `vt-name-[main-content]` |  `view-transition-name: main-content;` |
 | `vt-name-none` |  `view-transition-name: none;` |
 
 ### Styling with CSS
